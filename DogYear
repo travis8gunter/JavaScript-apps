@@ -1,0 +1,20 @@
+//Setting var to myage and setting 23 as value
+var myAge = 23;
+
+let earlyYears= 2;
+
+earlyYears = earlyYears * 10.5;
+console.log(earlyYears)
+
+let laterYears = myAge - 2;
+console.log(laterYears);
+
+laterYears = laterYears * 4;
+console.log(earlyYears,laterYears);
+
+myAgeInDogYears = earlyYears - laterYears;
+
+let myName = 'Travis Gunter';
+myName = myName.toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} old in dog years.`)
